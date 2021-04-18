@@ -155,3 +155,26 @@ header {
     font-size: 11px;
     color: #9a9898;
 }
+
+
+@media (max-width:524px) {
+    .right-header{
+        display: none;
+    }
+    .txt-title{
+        font-size: 1.2rem;
+    }
+    .main-header{
+        font-size: .8rem;
+    }
+    .decription-header{
+        justify-content: space-around;
+    }
+    .posts{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 100%;
+    }
+}
